@@ -1,0 +1,16 @@
+Para quebrarmos a cifra devemos:
+ Encontrar o tamanho da chave: 
+    localizar blocos de caracteres que se repitam varias vezes,
+    pega-se a diferenca de posicao entre elas e vemos o maior numero que divide todas essas diferencas
+Fatiar o texto: cipher Text
+    Para a primeira fatia, pegamos o primeiro caractér do texto,
+    seis posições à frente pegamos o próximo, mais seis posições à frente pegamos o seguinte,
+    assim por diante para construir a primeira fatia. Para construir a segunda,
+    começamos pelo segundo caractér e seguimos também de seis em seis, e assim por diante até a sexta fatia
+Analisar a frequencia:
+    Como e um texto grande pode-se abusar desse metodo,assim como na cifra de caesar
+    sabemos que a letra A é a letra mais frequente no alfabeto portugues com isso pegamos a letra que no passo anterior
+    mais apareceu e substituimos pela letra A
+Aplicar a chave ao cipherText:
+os caractéres da chave foram somados aos caracteres do texto original nas
+posições correspondentes formam  o cipher text. Assim é possivel encaixar os 2 fazendo o calculo inverso e encontrando o texto original

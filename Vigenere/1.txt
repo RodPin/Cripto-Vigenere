@@ -1,0 +1,5 @@
+Na cifra de Vigenere precisa-se de uma chave para a decriptacao, a chave normalmente e uma palavra.
+Repete-se a palavra chave quantas vezes for nescessaria para compara-la com a mensagem criptografada
+verifica-se de cada caractere da palavra chave ate a letra A.
+essa distancia e a mesma distancia do caratere correspondente da mensagem criptografada ate a letra deografada
+Assim deve-se verificar um por um e substituir para quebrar a cifra
